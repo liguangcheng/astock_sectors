@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+# 运行时依赖：随仓库已 vendor 到 backend/vendor，无需联网安装。
+# 重新安装（或换机）时可执行：
+#   python service/vendor_backend2.py fastapi uvicorn sqlalchemy python-dotenv
+# 或使用 pip：pip install -r requirements.txt
+fastapi==0.163.1
+starlette==1.10.0
+pydantic==2.14.3
+pydantic-core==2.50.4
+anyio==4.16.0
+uvicorn==0.54.0
+sqlalchemy==2.1.8
+python-dotenv==1.2.4
+# 数据源（复用上一级 astock_sectors/vendor 中的 baostock）
+baostock==0.9.4
+# 切换到 MySQL 时追加：
+# pymysql==1.1.1

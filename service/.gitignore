@@ -1,0 +1,19 @@
+# 依赖与运行产物
+node_modules/
+backend/vendor/
+__pycache__/
+*.pyc
+
+# 本地数据（可通过 seed 重新生成）
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# 构建与临时文件
+frontend/dist/
+service/.tmp/
+.tmp/
+.npm-cache/
+.wheels/
+*.log

@@ -1,0 +1,1785 @@
+{
+ "801010.SI": {
+  "name": "农林牧渔",
+  "count": 103,
+  "stocks": [
+   {
+    "code": "002714",
+    "name": "牧原股份",
+    "weight": 18.6415,
+    "mktcap": "2646.34",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 45.84,
+    "eligible": true
+   },
+   {
+    "code": "300498",
+    "name": "温氏股份",
+    "weight": 16.3064,
+    "mktcap": "1152.46",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 17.32,
+    "eligible": true
+   },
+   {
+    "code": "002311",
+    "name": "海大集团",
+    "weight": 6.218,
+    "mktcap": "810.23",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 48.88,
+    "eligible": true
+   },
+   {
+    "code": "002157",
+    "name": "正邦科技",
+    "weight": 3.7045,
+    "mktcap": "268.25",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 2.9,
+    "eligible": true
+   },
+   {
+    "code": "000876",
+    "name": "新 希 望",
+    "weight": 2.3872,
+    "mktcap": "352.31",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 7.1,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801030.SI": {
+  "name": "基础化工",
+  "count": 413,
+  "stocks": [
+   {
+    "code": "600309",
+    "name": "万华化学",
+    "weight": 6.6555,
+    "mktcap": "2131.54",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 68.09,
+    "eligible": true
+   },
+   {
+    "code": "000792",
+    "name": "盐湖股份",
+    "weight": 3.2061,
+    "mktcap": "1151.98",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 21.77,
+    "eligible": true
+   },
+   {
+    "code": "000408",
+    "name": "藏格矿业",
+    "weight": 2.3261,
+    "mktcap": "1001.91",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 63.86,
+    "eligible": true
+   },
+   {
+    "code": "600989",
+    "name": "宝丰能源",
+    "weight": 2.2266,
+    "mktcap": "1498.94",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 20.44,
+    "eligible": true
+   },
+   {
+    "code": "002648",
+    "name": "卫星化学",
+    "weight": 2.0745,
+    "mktcap": "786.58",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 23.35,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801040.SI": {
+  "name": "钢铁",
+  "count": 44,
+  "stocks": [
+   {
+    "code": "600010",
+    "name": "包钢股份",
+    "weight": 15.5296,
+    "mktcap": "890.95",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 1.97,
+    "eligible": true
+   },
+   {
+    "code": "600019",
+    "name": "宝钢股份",
+    "weight": 9.6076,
+    "mktcap": "1346.13",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 6.18,
+    "eligible": true
+   },
+   {
+    "code": "000629",
+    "name": "钒钛股份",
+    "weight": 4.3382,
+    "mktcap": "242.49",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 2.61,
+    "eligible": true
+   },
+   {
+    "code": "600516",
+    "name": "方大炭素",
+    "weight": 4.2141,
+    "mktcap": "172.31",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 4.28,
+    "eligible": true
+   },
+   {
+    "code": "000708",
+    "name": "中信特钢",
+    "weight": 4.0071,
+    "mktcap": "627.87",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 12.44,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801050.SI": {
+  "name": "有色金属",
+  "count": 141,
+  "stocks": [
+   {
+    "code": "601899",
+    "name": "紫金矿业",
+    "weight": 18.5684,
+    "mktcap": "7014.65",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 26.38,
+    "eligible": true
+   },
+   {
+    "code": "603993",
+    "name": "洛阳钼业",
+    "weight": 4.2352,
+    "mktcap": "2755.59",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 12.88,
+    "eligible": true
+   },
+   {
+    "code": "600111",
+    "name": "北方稀土",
+    "weight": 2.8417,
+    "mktcap": "1310.82",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 36.26,
+    "eligible": true
+   },
+   {
+    "code": "601600",
+    "name": "中国铝业",
+    "weight": 2.7738,
+    "mktcap": "1365.52",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 7.96,
+    "eligible": true
+   },
+   {
+    "code": "600489",
+    "name": "中金黄金",
+    "weight": 2.328,
+    "mktcap": "932.14",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 19.23,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801080.SI": {
+  "name": "电子",
+  "count": 497,
+  "stocks": [
+   {
+    "code": "688256",
+    "name": "寒武纪",
+    "weight": 4.1741,
+    "mktcap": "6155.73",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 978.88,
+    "eligible": true
+   },
+   {
+    "code": "002475",
+    "name": "立讯精密",
+    "weight": 3.1826,
+    "mktcap": "3873.22",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 50.02,
+    "eligible": true
+   },
+   {
+    "code": "002371",
+    "name": "北方华创",
+    "weight": 2.8808,
+    "mktcap": "4025.58",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 553.0,
+    "eligible": true
+   },
+   {
+    "code": "688981",
+    "name": "中芯国际",
+    "weight": 2.695,
+    "mktcap": "9461.50",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 110.5,
+    "eligible": true
+   },
+   {
+    "code": "688012",
+    "name": "中微公司",
+    "weight": 2.3527,
+    "mktcap": "2355.33",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 245.9,
+    "eligible": true
+   }
+  ],
+  "excluded": [
+   {
+    "code": "688825",
+    "name": "长鑫科技",
+    "weight": 2.4986,
+    "months": 5,
+    "first": "2026-07-31"
+   }
+  ]
+ },
+ "801880.SI": {
+  "name": "汽车",
+  "count": 290,
+  "stocks": [
+   {
+    "code": "002594",
+    "name": "比亚迪",
+    "weight": 12.2161,
+    "mktcap": "7292.85",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 79.99,
+    "eligible": true
+   },
+   {
+    "code": "000338",
+    "name": "潍柴动力",
+    "weight": 5.643,
+    "mktcap": "1620.04",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 18.75,
+    "eligible": true
+   },
+   {
+    "code": "600660",
+    "name": "福耀玻璃",
+    "weight": 5.0277,
+    "mktcap": "1483.90",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 56.86,
+    "eligible": true
+   },
+   {
+    "code": "600066",
+    "name": "宇通客车",
+    "weight": 2.4322,
+    "mktcap": "690.75",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 31.2,
+    "eligible": true
+   },
+   {
+    "code": "601689",
+    "name": "拓普集团",
+    "weight": 2.2608,
+    "mktcap": "873.78",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 50.28,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801110.SI": {
+  "name": "家用电器",
+  "count": 92,
+  "stocks": [
+   {
+    "code": "000333",
+    "name": "美的集团",
+    "weight": 41.4062,
+    "mktcap": "6909.16",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 90.55,
+    "eligible": true
+   },
+   {
+    "code": "000651",
+    "name": "格力电器",
+    "weight": 15.6055,
+    "mktcap": "2238.32",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 39.96,
+    "eligible": true
+   },
+   {
+    "code": "600690",
+    "name": "海尔智家",
+    "weight": 7.3369,
+    "mktcap": "1974.08",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 21.23,
+    "eligible": true
+   },
+   {
+    "code": "002050",
+    "name": "三花智控",
+    "weight": 7.0132,
+    "mktcap": "1467.33",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 34.87,
+    "eligible": true
+   },
+   {
+    "code": "688169",
+    "name": "石头科技",
+    "weight": 2.5871,
+    "mktcap": "335.34",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 129.18,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801120.SI": {
+  "name": "食品饮料",
+  "count": 122,
+  "stocks": [
+   {
+    "code": "600519",
+    "name": "贵州茅台",
+    "weight": 41.6858,
+    "mktcap": "17941.92",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 1435.26,
+    "eligible": true
+   },
+   {
+    "code": "600887",
+    "name": "伊利股份",
+    "weight": 11.0427,
+    "mktcap": "2007.67",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 31.74,
+    "eligible": true
+   },
+   {
+    "code": "000858",
+    "name": "五 粮 液",
+    "weight": 7.5519,
+    "mktcap": "2848.32",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 73.38,
+    "eligible": true
+   },
+   {
+    "code": "000568",
+    "name": "泸州老窖",
+    "weight": 3.4621,
+    "mktcap": "1171.63",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 79.6,
+    "eligible": true
+   },
+   {
+    "code": "603288",
+    "name": "海天味业",
+    "weight": 3.3065,
+    "mktcap": "2038.96",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 34.89,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801130.SI": {
+  "name": "纺织服饰",
+  "count": 105,
+  "stocks": [
+   {
+    "code": "600177",
+    "name": "雅戈尔",
+    "weight": 4.7181,
+    "mktcap": "388.37",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 8.4,
+    "eligible": true
+   },
+   {
+    "code": "002832",
+    "name": "比音勒芬",
+    "weight": 3.8234,
+    "mktcap": "162.82",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 28.53,
+    "eligible": true
+   },
+   {
+    "code": "600398",
+    "name": "海澜之家",
+    "weight": 3.7997,
+    "mktcap": "296.33",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 6.17,
+    "eligible": true
+   },
+   {
+    "code": "002003",
+    "name": "伟星股份",
+    "weight": 3.6975,
+    "mktcap": "149.56",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 12.58,
+    "eligible": true
+   },
+   {
+    "code": "300005",
+    "name": "探路者",
+    "weight": 3.2197,
+    "mktcap": "95.25",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 10.78,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801140.SI": {
+  "name": "轻工制造",
+  "count": 156,
+  "stocks": [
+   {
+    "code": "002078",
+    "name": "太阳纸业",
+    "weight": 5.2482,
+    "mktcap": "385.89",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 13.52,
+    "eligible": true
+   },
+   {
+    "code": "002831",
+    "name": "裕同科技",
+    "weight": 3.6329,
+    "mktcap": "326.85",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 25.37,
+    "eligible": true
+   },
+   {
+    "code": "603195",
+    "name": "公牛集团",
+    "weight": 3.2675,
+    "mktcap": "675.57",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 37.46,
+    "eligible": true
+   },
+   {
+    "code": "603816",
+    "name": "顾家家居",
+    "weight": 2.8247,
+    "mktcap": "235.67",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 25.46,
+    "eligible": true
+   },
+   {
+    "code": "002565",
+    "name": "顺灏股份",
+    "weight": 2.3005,
+    "mktcap": "101.65",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 9.59,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801150.SI": {
+  "name": "医药生物",
+  "count": 481,
+  "stocks": [
+   {
+    "code": "603259",
+    "name": "药明康德",
+    "weight": 9.8671,
+    "mktcap": "4440.06",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 146.3,
+    "eligible": true
+   },
+   {
+    "code": "600276",
+    "name": "恒瑞医药",
+    "weight": 5.2416,
+    "mktcap": "3190.50",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 48.07,
+    "eligible": true
+   },
+   {
+    "code": "300760",
+    "name": "迈瑞医疗",
+    "weight": 3.3818,
+    "mktcap": "2173.97",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 179.4,
+    "eligible": true
+   },
+   {
+    "code": "688271",
+    "name": "联影医疗",
+    "weight": 1.7889,
+    "mktcap": "967.40",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 117.38,
+    "eligible": true
+   },
+   {
+    "code": "002422",
+    "name": "科伦药业",
+    "weight": 1.4432,
+    "mktcap": "678.79",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 42.67,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801160.SI": {
+  "name": "公用事业",
+  "count": 137,
+  "stocks": [
+   {
+    "code": "600900",
+    "name": "长江电力",
+    "weight": 23.9349,
+    "mktcap": "7318.44",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 29.91,
+    "eligible": true
+   },
+   {
+    "code": "601985",
+    "name": "中国核电",
+    "weight": 5.5057,
+    "mktcap": "1999.21",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 9.72,
+    "eligible": true
+   },
+   {
+    "code": "600795",
+    "name": "国电电力",
+    "weight": 3.3022,
+    "mktcap": "977.39",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 5.48,
+    "eligible": true
+   },
+   {
+    "code": "600886",
+    "name": "国投电力",
+    "weight": 3.0367,
+    "mktcap": "1252.70",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 15.65,
+    "eligible": true
+   },
+   {
+    "code": "600905",
+    "name": "三峡能源",
+    "weight": 2.8404,
+    "mktcap": "923.38",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 3.23,
+    "eligible": true
+   }
+  ],
+  "excluded": [
+   {
+    "code": "600930",
+    "name": "华电新能",
+    "weight": 2.9618,
+    "months": 17,
+    "first": "2025-07-31"
+   }
+  ]
+ },
+ "801170.SI": {
+  "name": "交通运输",
+  "count": 126,
+  "stocks": [
+   {
+    "code": "002352",
+    "name": "顺丰控股",
+    "weight": 7.5794,
+    "mktcap": "1697.46",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 33.25,
+    "eligible": true
+   },
+   {
+    "code": "601919",
+    "name": "中远海控",
+    "weight": 7.0344,
+    "mktcap": "2591.68",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 17.03,
+    "eligible": true
+   },
+   {
+    "code": "601816",
+    "name": "京沪高铁",
+    "weight": 5.9658,
+    "mktcap": "2568.60",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 5.25,
+    "eligible": true
+   },
+   {
+    "code": "601006",
+    "name": "大秦铁路",
+    "weight": 4.7447,
+    "mktcap": "961.36",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 4.84,
+    "eligible": true
+   },
+   {
+    "code": "601872",
+    "name": "招商轮船",
+    "weight": 4.2766,
+    "mktcap": "1239.44",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 15.35,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801180.SI": {
+  "name": "房地产",
+  "count": 95,
+  "stocks": [
+   {
+    "code": "600048",
+    "name": "保利发展",
+    "weight": 8.8309,
+    "mktcap": "626.05",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 5.23,
+    "eligible": true
+   },
+   {
+    "code": "001979",
+    "name": "招商蛇口",
+    "weight": 6.0091,
+    "mktcap": "674.40",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 7.48,
+    "eligible": true
+   },
+   {
+    "code": "600895",
+    "name": "张江高科",
+    "weight": 5.6404,
+    "mktcap": "408.08",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 26.35,
+    "eligible": true
+   },
+   {
+    "code": "000002",
+    "name": "万  科Ａ",
+    "weight": 5.3419,
+    "mktcap": "365.08",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 3.06,
+    "eligible": true
+   },
+   {
+    "code": "600246",
+    "name": "万通发展",
+    "weight": 4.4771,
+    "mktcap": "208.09",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 10.64,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801200.SI": {
+  "name": "商贸零售",
+  "count": 99,
+  "stocks": [
+   {
+    "code": "601888",
+    "name": "中国中免",
+    "weight": 12.6904,
+    "mktcap": "1076.30",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 51.8,
+    "eligible": true
+   },
+   {
+    "code": "600415",
+    "name": "小商品城",
+    "weight": 7.2677,
+    "mktcap": "667.90",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 12.18,
+    "eligible": true
+   },
+   {
+    "code": "000564",
+    "name": "供销大集",
+    "weight": 3.4449,
+    "mktcap": "236.56",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 1.31,
+    "eligible": true
+   },
+   {
+    "code": "300972",
+    "name": "万辰集团",
+    "weight": 3.1588,
+    "mktcap": "262.04",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 132.0,
+    "eligible": true
+   },
+   {
+    "code": "601933",
+    "name": "永辉超市",
+    "weight": 3.0142,
+    "mktcap": "257.93",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 2.89,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801210.SI": {
+  "name": "社会服务",
+  "count": 82,
+  "stocks": [
+   {
+    "code": "300012",
+    "name": "华测检测",
+    "weight": 8.9843,
+    "mktcap": "261.34",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 15.53,
+    "eligible": true
+   },
+   {
+    "code": "002607",
+    "name": "中公教育",
+    "weight": 3.6171,
+    "mktcap": "101.76",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 1.65,
+    "eligible": true
+   },
+   {
+    "code": "600258",
+    "name": "首旅酒店",
+    "weight": 3.5837,
+    "mktcap": "144.15",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 12.91,
+    "eligible": true
+   },
+   {
+    "code": "600754",
+    "name": "锦江酒店",
+    "weight": 3.5832,
+    "mktcap": "221.86",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 20.85,
+    "eligible": true
+   },
+   {
+    "code": "300144",
+    "name": "宋城演艺",
+    "weight": 3.5617,
+    "mktcap": "137.24",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 5.26,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801780.SI": {
+  "name": "银行",
+  "count": 42,
+  "stocks": [
+   {
+    "code": "600036",
+    "name": "招商银行",
+    "weight": 14.3791,
+    "mktcap": "10826.88",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 42.93,
+    "eligible": true
+   },
+   {
+    "code": "601166",
+    "name": "兴业银行",
+    "weight": 9.0216,
+    "mktcap": "4196.60",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 19.83,
+    "eligible": true
+   },
+   {
+    "code": "601288",
+    "name": "农业银行",
+    "weight": 7.0548,
+    "mktcap": "25793.75",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 7.37,
+    "eligible": true
+   },
+   {
+    "code": "601398",
+    "name": "工商银行",
+    "weight": 6.9386,
+    "mktcap": "31541.95",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 8.85,
+    "eligible": true
+   },
+   {
+    "code": "601328",
+    "name": "交通银行",
+    "weight": 6.0919,
+    "mktcap": "7581.61",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 8.58,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801790.SI": {
+  "name": "非银金融",
+  "count": 77,
+  "stocks": [
+   {
+    "code": "601318",
+    "name": "中国平安",
+    "weight": 22.6426,
+    "mktcap": "9741.91",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 53.8,
+    "eligible": true
+   },
+   {
+    "code": "300059",
+    "name": "东方财富",
+    "weight": 10.0629,
+    "mktcap": "2893.88",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 18.29,
+    "eligible": true
+   },
+   {
+    "code": "600030",
+    "name": "中信证券",
+    "weight": 10.0026,
+    "mktcap": "3906.07",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 25.0,
+    "eligible": true
+   },
+   {
+    "code": "601211",
+    "name": "国泰海通",
+    "weight": 5.9742,
+    "mktcap": "2827.03",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 16.08,
+    "eligible": true
+   },
+   {
+    "code": "601601",
+    "name": "中国太保",
+    "weight": 3.9153,
+    "mktcap": "3034.26",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 31.54,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801230.SI": {
+  "name": "综合",
+  "count": 20,
+  "stocks": [
+   {
+    "code": "600673",
+    "name": "东阳光",
+    "weight": 40.8212,
+    "mktcap": "702.13",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 23.33,
+    "eligible": true
+   },
+   {
+    "code": "000833",
+    "name": "粤桂股份",
+    "weight": 7.5273,
+    "mktcap": "135.62",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 15.86,
+    "eligible": true
+   },
+   {
+    "code": "600458",
+    "name": "时代新材",
+    "weight": 5.4209,
+    "mktcap": "90.07",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 9.46,
+    "eligible": true
+   },
+   {
+    "code": "600770",
+    "name": "综艺股份",
+    "weight": 4.769,
+    "mktcap": "66.30",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 5.1,
+    "eligible": true
+   },
+   {
+    "code": "600881",
+    "name": "亚泰集团",
+    "weight": 4.7579,
+    "mktcap": "50.42",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 1.56,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801710.SI": {
+  "name": "建筑材料",
+  "count": 72,
+  "stocks": [
+   {
+    "code": "600176",
+    "name": "中国巨石",
+    "weight": 16.2543,
+    "mktcap": "1095.66",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 27.37,
+    "eligible": true
+   },
+   {
+    "code": "600585",
+    "name": "海螺水泥",
+    "weight": 10.1523,
+    "mktcap": "941.96",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 17.85,
+    "eligible": true
+   },
+   {
+    "code": "002080",
+    "name": "中材科技",
+    "weight": 6.1194,
+    "mktcap": "568.08",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 32.18,
+    "eligible": true
+   },
+   {
+    "code": "002271",
+    "name": "东方雨虹",
+    "weight": 5.3047,
+    "mktcap": "244.60",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 10.24,
+    "eligible": true
+   },
+   {
+    "code": "000786",
+    "name": "北新建材",
+    "weight": 4.3661,
+    "mktcap": "277.42",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 16.34,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801720.SI": {
+  "name": "建筑装饰",
+  "count": 147,
+  "stocks": [
+   {
+    "code": "601668",
+    "name": "中国建筑",
+    "weight": 7.6258,
+    "mktcap": "1909.00",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 4.62,
+    "eligible": true
+   },
+   {
+    "code": "601390",
+    "name": "中国中铁",
+    "weight": 5.678,
+    "mktcap": "1037.67",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 4.23,
+    "eligible": true
+   },
+   {
+    "code": "601868",
+    "name": "中国能建",
+    "weight": 5.5093,
+    "mktcap": "990.98",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 2.24,
+    "eligible": true
+   },
+   {
+    "code": "601669",
+    "name": "中国电建",
+    "weight": 5.3815,
+    "mktcap": "754.51",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 4.38,
+    "eligible": true
+   },
+   {
+    "code": "601186",
+    "name": "中国铁建",
+    "weight": 4.7066,
+    "mktcap": "794.40",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 5.85,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801730.SI": {
+  "name": "电力设备",
+  "count": 379,
+  "stocks": [
+   {
+    "code": "300750",
+    "name": "宁德时代",
+    "weight": 19.7012,
+    "mktcap": "10998.97",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 237.7,
+    "eligible": true
+   },
+   {
+    "code": "300274",
+    "name": "阳光电源",
+    "weight": 3.395,
+    "mktcap": "1606.53",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 77.49,
+    "eligible": true
+   },
+   {
+    "code": "600406",
+    "name": "国电南瑞",
+    "weight": 2.4263,
+    "mktcap": "1868.19",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 23.26,
+    "eligible": true
+   },
+   {
+    "code": "600089",
+    "name": "特变电工",
+    "weight": 2.2437,
+    "mktcap": "903.14",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 17.99,
+    "eligible": true
+   },
+   {
+    "code": "300014",
+    "name": "亿纬锂能",
+    "weight": 1.9965,
+    "mktcap": "1012.03",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 45.84,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801890.SI": {
+  "name": "机械设备",
+  "count": 541,
+  "stocks": [
+   {
+    "code": "600031",
+    "name": "三一重工",
+    "weight": 4.1264,
+    "mktcap": "1684.52",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 18.32,
+    "eligible": true
+   },
+   {
+    "code": "300124",
+    "name": "汇川技术",
+    "weight": 4.0129,
+    "mktcap": "1449.07",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 53.45,
+    "eligible": true
+   },
+   {
+    "code": "601766",
+    "name": "中国中车",
+    "weight": 2.3685,
+    "mktcap": "1845.34",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 6.43,
+    "eligible": true
+   },
+   {
+    "code": "000988",
+    "name": "华工科技",
+    "weight": 2.0744,
+    "mktcap": "659.51",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 65.59,
+    "eligible": true
+   },
+   {
+    "code": "000425",
+    "name": "徐工机械",
+    "weight": 1.8016,
+    "mktcap": "756.54",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 6.46,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801740.SI": {
+  "name": "国防军工",
+  "count": 137,
+  "stocks": [
+   {
+    "code": "600150",
+    "name": "中国船舶",
+    "weight": 12.6094,
+    "mktcap": "2566.99",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 34.11,
+    "eligible": true
+   },
+   {
+    "code": "600760",
+    "name": "中航沈飞",
+    "weight": 3.6552,
+    "mktcap": "1344.32",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 47.42,
+    "eligible": true
+   },
+   {
+    "code": "600893",
+    "name": "航发动力",
+    "weight": 3.4638,
+    "mktcap": "999.60",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 37.5,
+    "eligible": true
+   },
+   {
+    "code": "002179",
+    "name": "中航光电",
+    "weight": 3.2125,
+    "mktcap": "709.46",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 33.78,
+    "eligible": true
+   },
+   {
+    "code": "603268",
+    "name": "松发股份",
+    "weight": 2.955,
+    "mktcap": "1747.51",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 171.54,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801750.SI": {
+  "name": "计算机",
+  "count": 335,
+  "stocks": [
+   {
+    "code": "002415",
+    "name": "海康威视",
+    "weight": 5.9315,
+    "mktcap": "3157.30",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 34.45,
+    "eligible": true
+   },
+   {
+    "code": "603019",
+    "name": "中科曙光",
+    "weight": 4.5233,
+    "mktcap": "1190.73",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 81.43,
+    "eligible": true
+   },
+   {
+    "code": "002230",
+    "name": "科大讯飞",
+    "weight": 3.3694,
+    "mktcap": "891.65",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 37.12,
+    "eligible": true
+   },
+   {
+    "code": "300033",
+    "name": "同花顺",
+    "weight": 2.7301,
+    "mktcap": "1492.33",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 198.28,
+    "eligible": true
+   },
+   {
+    "code": "000977",
+    "name": "浪潮信息",
+    "weight": 2.5465,
+    "mktcap": "794.45",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 54.1,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801760.SI": {
+  "name": "传媒",
+  "count": 129,
+  "stocks": [
+   {
+    "code": "002602",
+    "name": "世纪华通",
+    "weight": 7.0081,
+    "mktcap": "813.72",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 11.04,
+    "eligible": true
+   },
+   {
+    "code": "002027",
+    "name": "分众传媒",
+    "weight": 6.358,
+    "mktcap": "792.88",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 5.49,
+    "eligible": true
+   },
+   {
+    "code": "300058",
+    "name": "蓝色光标",
+    "weight": 5.6438,
+    "mktcap": "489.35",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 13.63,
+    "eligible": true
+   },
+   {
+    "code": "300418",
+    "name": "昆仑万维",
+    "weight": 3.975,
+    "mktcap": "515.81",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 40.14,
+    "eligible": true
+   },
+   {
+    "code": "002517",
+    "name": "恺英网络",
+    "weight": 3.2239,
+    "mktcap": "342.26",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 16.02,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801770.SI": {
+  "name": "通信",
+  "count": 122,
+  "stocks": [
+   {
+    "code": "300308",
+    "name": "中际旭创",
+    "weight": 20.1528,
+    "mktcap": "5491.41",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 466.2,
+    "eligible": true
+   },
+   {
+    "code": "300502",
+    "name": "新易盛",
+    "weight": 12.4138,
+    "mktcap": "2616.25",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 187.58,
+    "eligible": true
+   },
+   {
+    "code": "000063",
+    "name": "中兴通讯",
+    "weight": 4.5186,
+    "mktcap": "1342.26",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 28.06,
+    "eligible": true
+   },
+   {
+    "code": "300394",
+    "name": "天孚通信",
+    "weight": 4.1312,
+    "mktcap": "1363.42",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 124.99,
+    "eligible": true
+   },
+   {
+    "code": "600941",
+    "name": "中国移动",
+    "weight": 3.9613,
+    "mktcap": "22019.10",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 101.46,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801950.SI": {
+  "name": "煤炭",
+  "count": 33,
+  "stocks": [
+   {
+    "code": "601088",
+    "name": "中国神华",
+    "weight": 31.3965,
+    "mktcap": "10844.72",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 50.0,
+    "eligible": true
+   },
+   {
+    "code": "601225",
+    "name": "陕西煤业",
+    "weight": 17.9119,
+    "mktcap": "2614.74",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 26.97,
+    "eligible": true
+   },
+   {
+    "code": "600188",
+    "name": "兖矿能源",
+    "weight": 5.4659,
+    "mktcap": "1725.33",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 17.19,
+    "eligible": true
+   },
+   {
+    "code": "002128",
+    "name": "电投能源",
+    "weight": 5.1403,
+    "mktcap": "867.28",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 27.74,
+    "eligible": true
+   },
+   {
+    "code": "601898",
+    "name": "中煤能源",
+    "weight": 3.9641,
+    "mktcap": "1727.60",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 13.03,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801960.SI": {
+  "name": "石油石化",
+  "count": 47,
+  "stocks": [
+   {
+    "code": "601857",
+    "name": "中国石油",
+    "weight": 20.0703,
+    "mktcap": "22676.30",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 12.39,
+    "eligible": true
+   },
+   {
+    "code": "600028",
+    "name": "中国石化",
+    "weight": 15.0693,
+    "mktcap": "6916.94",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 5.73,
+    "eligible": true
+   },
+   {
+    "code": "600938",
+    "name": "中国海油",
+    "weight": 12.3546,
+    "mktcap": "14662.99",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 30.85,
+    "eligible": true
+   },
+   {
+    "code": "002493",
+    "name": "荣盛石化",
+    "weight": 5.3318,
+    "mktcap": "1123.81",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 11.25,
+    "eligible": true
+   },
+   {
+    "code": "601233",
+    "name": "桐昆股份",
+    "weight": 5.2771,
+    "mktcap": "502.56",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 21.1,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801970.SI": {
+  "name": "环保",
+  "count": 130,
+  "stocks": [
+   {
+    "code": "603588",
+    "name": "高能时代",
+    "weight": 4.1962,
+    "mktcap": "163.14",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 10.71,
+    "eligible": true
+   },
+   {
+    "code": "600323",
+    "name": "瀚蓝环境",
+    "weight": 3.921,
+    "mktcap": "250.07",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 30.67,
+    "eligible": true
+   },
+   {
+    "code": "600388",
+    "name": "紫金龙净",
+    "weight": 3.8257,
+    "mktcap": "234.44",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 16.6,
+    "eligible": true
+   },
+   {
+    "code": "600008",
+    "name": "首创环保",
+    "weight": 3.2899,
+    "mktcap": "203.33",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 2.77,
+    "eligible": true
+   },
+   {
+    "code": "002266",
+    "name": "浙富控股",
+    "weight": 3.2043,
+    "mktcap": "195.72",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 3.75,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ },
+ "801980.SI": {
+  "name": "美容护理",
+  "count": 28,
+  "stocks": [
+   {
+    "code": "300896",
+    "name": "爱美客",
+    "weight": 14.1053,
+    "mktcap": "258.87",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 85.55,
+    "eligible": true
+   },
+   {
+    "code": "603605",
+    "name": "珀莱雅",
+    "weight": 11.8923,
+    "mktcap": "189.63",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 47.89,
+    "eligible": true
+   },
+   {
+    "code": "688363",
+    "name": "华熙生物",
+    "weight": 7.9272,
+    "mktcap": "159.72",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 33.16,
+    "eligible": true
+   },
+   {
+    "code": "300888",
+    "name": "稳健医疗",
+    "weight": 6.3417,
+    "mktcap": "171.04",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 29.34,
+    "eligible": true
+   },
+   {
+    "code": "002511",
+    "name": "中顺洁柔",
+    "weight": 5.6955,
+    "mktcap": "94.80",
+    "months": 35,
+    "first": "2024-01-31",
+    "last_close": 7.4,
+    "eligible": true
+   }
+  ],
+  "excluded": []
+ }
+}

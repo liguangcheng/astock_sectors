@@ -1,0 +1,58 @@
+# ===== 敏感/环境相关（绝不入库）=====
+.env
+.env.*
+!.env.example
+archive/system-acl-*/
+_local_only/
+*.pem
+*.key
+*.pfx
+*.p12
+id_rsa*
+
+# ===== 依赖（体积大；新环境按 README 重新 vendor / npm install）=====
+service/backend/vendor/
+service/frontend/node_modules/
+vendor/
+.venv/
+venv/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.py[cod]
+.mplcache/
+service/backend/.mplcache/
+
+# ===== 临时目录 / 包管理缓存 =====
+_tmp/
+service/.tmp/
+.npm-cache/
+service/.npm-cache/
+*.tmp
+
+# ===== 数据库（由 seed 重新生成；不含个人信息，但避免二进制入库）=====
+*.db
+*.sqlite
+*.sqlite3
+service/data/*.db-journal
+service/data/*.db-wal
+service/data/*.db-shm
+
+# ===== 日志 =====
+*.log
+service/data/logs/
+
+# ===== 编辑器/系统 =====
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 说明：
+# - service/frontend/dist 保留入库：clone 后可直接启动，无需 Node 构建。
+# - 交付/ 约 24MB（PDF/DOCX/XLSX/PNG）。GitHub 单文件上限 100MB 可放下，
+#   但会永久留在 git 历史里；建议二选一：
+#     a) 上传 GitHub Release，仓库里只留说明；
+#     b) git lfs track "交付/**" 后再提交。
+# - 不要提交 .env（只提交 .env.example），也不要把真实的 MySQL 密码写进 compose。
