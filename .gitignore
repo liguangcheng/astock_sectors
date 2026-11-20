@@ -38,9 +38,10 @@ service/data/*.db-journal
 service/data/*.db-wal
 service/data/*.db-shm
 
-# ===== 日志 =====
+# ===== 日志 / 运行时 =====
 *.log
 service/data/logs/
+*.pid
 
 # ===== 编辑器/系统 =====
 .vscode/

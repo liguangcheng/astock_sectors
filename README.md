@@ -18,7 +18,8 @@ astock_sectors\
 │  ├─ frontend\                  React + Vite + ECharts
 │  ├─ data\astock.db             SQLite 数据库（5,616 行行情）
 │  ├─ docs\                      工程文档 00~09 + 自检脚本
-│  ├─ start.ps1                  一键启动（3999）
+│  ├─ start.sh                   一键启动（bash，3999）
+│  ├─ stop.sh                    停止服务（按端口）
 │  └─ docker-compose.mysql.yml   阶段二 MySQL
 │
 ├─ data\                        研究数据（服务种子来源）
@@ -50,9 +51,10 @@ astock_sectors\
 
 ## 2. 日常使用（服务）
 
-```powershell
+```bash
 cd service
-.\start.ps1          # → http://127.0.0.1:3999
+./start.sh           # → http://127.0.0.1:3999（Git Bash）
+./stop.sh            # 停止
 ```
 
 - 页面：总览 / 行业详情
@@ -113,7 +115,7 @@ cd service
 |---|---|---|
 | 转存并删除 | 工作区根 `_acl_reports\` | ACL 修复的备份与报告（3 个文件）→ `_local_only\system-acl-2026-11-15\`（仓库外） |
 | 删除 | 工作区根 `_tmp\` | 空目录（matplotlib 缓存残留） |
-| 删除 | 79 个 `__pycache__`（10.5 MB） | 由 `clean.ps1` 清理 |
+| 删除 | 79 个 `__pycache__`（10.5 MB） | 由 `clean.ps1` 清理（现为 `clean.sh`） |
 | 移动 | `AGENTS.md` 主体 | 迁入 `astock_sectors\AGENTS.md`；工作区根只留加载器 |
 
 > 工作区根 `D:\deepseek` 现在只有 `astock_sectors\` 与 `AGENTS.md`。

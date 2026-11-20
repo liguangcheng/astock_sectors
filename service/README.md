@@ -12,23 +12,30 @@
 
 ## 1. 快速开始
 
-```powershell
-cd D:\deepseek\astock_sectors\service
-.\start.cmd
+```bash
+cd /d/deepseek/astock_sectors/service
+./start.sh
 ```
 
-`start.cmd` 会绕过 Windows 默认的脚本执行策略限制（内部调用 `start.ps1`）：
+在 **Git Bash** 里执行（`C:\Windows\System32\bash.exe` 是 WSL 转发，本机 WSL 不可用，别用它）。
+
+`start.sh` 做的事：
 
 - 若服务已在运行 → 直接打开浏览器，不会重复启动；
 - 缺前端产物 → 自动 `npm install && npm run build`；
-- 端口被其他程序占用 → 报错并列出占用进程。
+- 端口被其他程序占用 → 报错并列出占用进程；
+- 启动后就绪自动开浏览器；`Ctrl+C` 会连带停掉后端。
 
-PowerShell 7 用户也可以直接 `.\start.ps1`；Windows PowerShell 5.1 下若提示「禁止运行脚本」，用 `.\start.cmd` 或
-`powershell -ExecutionPolicy Bypass -File .\start.ps1`。
+停止服务：
+
+```bash
+./stop.sh              # 按端口找进程并结束，可重复执行
+./stop.sh --dry-run    # 只看将要停掉的进程
+```
 
 手动启动：
 
-```powershell
+```bash
 cd backend
 python run.py            # 生产模式，3999 同时提供 API 与页面
 python run.py --reload   # 开发模式，改代码自动重载
@@ -36,7 +43,7 @@ python run.py --reload   # 开发模式，改代码自动重载
 
 前端开发（热更新，需另开一个终端）：
 
-```powershell
+```bash
 cd frontend
 npm run dev              # http://127.0.0.1:5173 ，/api 已代理到 3999
 ```
@@ -67,7 +74,8 @@ service/
 ├─ data/astock.db          # SQLite 数据库（当前阶段）
 ├─ docker-compose.mysql.yml# 阶段二 MySQL（3307）
 ├─ .env.example
-└─ start.ps1
+├─ start.sh                # 一键启动（bash）
+└─ stop.sh                 # 停止（按端口找进程）
 ```
 
 ---
@@ -107,10 +115,9 @@ service/
 
 ## 5. 数据初始化 / 重置
 
-```powershell
+```bash
 cd backend
-$env:PYTHONPATH=".;.\vendor;..\..\vendor"
-python -m app.seed          # 导入 155 只 × 35 个月（覆盖写入）
+PYTHONPATH=".;./vendor;../../vendor" python -m app.seed   # 导入 155 只 × 35 个月（覆盖写入）
 ```
 
 删除 `service/data/astock.db` 后重新执行 `python -m app.seed` 即可重置。
@@ -121,24 +128,23 @@ python -m app.seed          # 导入 155 只 × 35 个月（覆盖写入）
 
 **推荐：容器化（Docker Desktop）**，端口映射 3307，避免与本机 3306 冲突：
 
-```powershell
+```bash
 cd service
 docker compose -f docker-compose.mysql.yml up -d
 ```
 
 然后：
 
-```powershell
+```bash
 # 1) 安装驱动（或放进 backend/vendor）
 python -m pip install pymysql
 
 # 2) 用环境变量指向 MySQL（.env 里放开注释即可）
-$env:ASTOCK_DATABASE_URL="mysql+pymysql://astock:astock-pass@127.0.0.1:3307/astock?charset=utf8mb4"
+export ASTOCK_DATABASE_URL="mysql+pymysql://astock:astock-pass@127.0.0.1:3307/astock?charset=utf8mb4"
 
 # 3) 建表 + 灌入种子数据（与 SQLite 同一套 DDL）
 cd backend
-$env:PYTHONPATH=".;.\vendor;..\..\vendor"
-python -m app.seed
+PYTHONPATH=".;./vendor;../../vendor" python -m app.seed
 
 # 4) 启动，页面数据应与 SQLite 完全一致
 python run.py
@@ -154,7 +160,7 @@ python run.py
 
 | 现象 | 处理 |
 |---|---|
-| 端口 3999 被占用 | `Get-NetTCPConnection -LocalPort 3999` 找到 PID 后结束，或改 `ASTOCK_PORT` |
+| 端口 3999 被占用 | `./stop.sh` 停掉旧进程（`--dry-run` 先看），或改 `ASTOCK_PORT`（启动/停止都认） |
 | 页面提示「前端尚未构建」 | 在 `frontend` 执行 `npm install && npm run build` |
 | 同步失败、提示 baostock 断线 | 再点一次「同步最新数据」；服务端已有 3 次重试与重新登录 |
 | 页面数据不更新 | 非交易日不会产生新数据；15:05 后才把当天计入 |

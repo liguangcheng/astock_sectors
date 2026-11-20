@@ -3,7 +3,7 @@
 > 本文件是 **A 股行业龙头股月度行情项目**的完整记忆，位于项目根目录。
 > 工作区根目录 `D:\deepseek\AGENTS.md` 是一个极简「加载器」，只负责指向本文件。
 > 接手任务前：**先读本文件 → `service/docs/10-当前状态.md` → `service/docs/11-路线图.md`**。
-> 最后更新：2026-11-17　|　服务版本：v0.2.2
+> 最后更新：2026-11-20　|　服务版本：v0.2.2
 
 ---
 
@@ -21,34 +21,36 @@
 
 ## 2. 快速命令
 
-```powershell
-# 启动服务（自动开浏览器；.cmd 绕过 PowerShell 执行策略）
-cd D:\deepseek\astock_sectors\service
-.\start.cmd
+> 运维脚本已全部 bash 化（2026-11-20，由 PowerShell 迁来），请在 **Git Bash** 里执行。
+> `C:\Windows\System32\bash.exe` 是 WSL 转发（本机 WSL 不可用），不要用它。
 
-# 仅后端（看日志）
-cd D:\deepseek\astock_sectors\service\backend
-python run.py
+```bash
+# 启动服务（自动开浏览器）
+cd /d/deepseek/astock_sectors/service
+./start.sh
+
+# 停止服务（按端口找进程，可重复执行）
+./stop.sh
+
+# 仅后端（前台看日志）
+cd backend && python run.py
 
 # 前端开发（热更新，5173 代理到 3999）
-cd D:\deepseek\astock_sectors\service\frontend
-npm run dev
+cd frontend && npm run dev
 
 # 重新构建前端
-cd D:\deepseek\astock_sectors\service\frontend
-npm run build
+cd frontend && npm run build
 
 # 重置数据库并导入种子
-cd D:\deepseek\astock_sectors\service\backend
-$env:PYTHONPATH=".;.\vendor;..\..\vendor"
-python -m app.seed
+cd backend
+PYTHONPATH=".;./vendor;../../vendor" python -m app.seed
 
 # 清理缓存（不动数据/依赖）
-cd D:\deepseek\astock_sectors
-.\clean.cmd
+cd /d/deepseek/astock_sectors
+./clean.sh
 ```
 
-健康检查：`Invoke-RestMethod http://127.0.0.1:3999/api/health`
+健康检查：`curl http://127.0.0.1:3999/api/health`
 
 ---
 
@@ -94,8 +96,10 @@ cd D:\deepseek\astock_sectors
 | pip 安装 | 临时目录权限 + pypi 极慢，经常卡死 | **不要用 pip**；用 `service/vendor_backend2.py`（清华镜像）解压 wheel |
 | npm install / vite build | 沙箱里 `spawn EPERM` | 需 `danger-full-access` 一次性执行，`TMP/TEMP` 指到工作区 |
 | Edge 无头截图 | mojo/命名管道被拒 | 需 `danger-full-access` + `--no-sandbox` + 工作区 `--user-data-dir` |
-| PowerShell 写 UTF-8 | `Set-Content -Encoding UTF8` 加 BOM，Vite 解析 `package.json` 失败 | 用 write 工具；`.ps1` 必须带 BOM（5.1 才能解析中文） |
-| PowerShell 执行策略 | 直接跑 `.ps1` 报「禁止运行脚本」 | 用 `start.cmd` / `clean.cmd` |
+| 只能用 Git Bash | `C:\Windows\System32\bash.exe` 是 WSL 转发（本机 WSL 不可用），报 `NtCreateDirectoryObject 0xC0000022` | 用 Git Bash（`C:\Program Files\Git\bin\bash.exe`）跑 `./start.sh` |
+| `.sh` 被 CRLF 污染 | Git Bash 报 `$'\r': command not found` | `core.autocrlf=true`；已用 `.gitattributes` 强制 `*.sh eol=lf`，必要时 `dos2unix` |
+| `python3` 是商店存根 | `python3` 指向 `WindowsApps`，不是真解释器 | 脚本一律优先 `python`（本机 3.13） |
+| 沙箱里 MSYS 被拒 | 直接跑 `bash` 报 `NtCreateDirectoryObject ... 0xC0000022` | Git Bash / npm 构建需 `danger-full-access` 一次性执行 |
 | 没有 LibreOffice | `office_render` 渲染 docx 失败 | Word COM 导出 PDF；PDF 转图用无头 Edge 截图 HTML |
 | baostock 不稳定 | 偶发 `timed out` / `接收数据异常`，同步可能长时间卡住 | 已加 20s socket 超时与启动自愈；仍在 v0.2.3 增加总超时/熔断（见 11） |
 
@@ -165,13 +169,13 @@ cd D:\deepseek\astock_sectors
 
 ```
 astock_sectors\
-├─ service\        ★ 服务（backend/frontend/data/docs/start.cmd）
+├─ service\        ★ 服务（backend/frontend/data/docs/start.sh/stop.sh）
 ├─ data\           研究数据（selection/bs_month/sw_components/shortlist/panel/kline_month）
 ├─ 交付\           交付物唯一权威副本（pdf/docx/xlsx/PNG/CSV）
 ├─ archive\        one-off-scripts（17）、data-probes（2）；ACL 报告已移出仓库
 ├─ vendor\         研究管道 Python 依赖
 ├─ README.md       项目总览
-├─ clean.cmd/.ps1  缓存清理
+├─ clean.sh        缓存清理（bash；--dry-run 预览）
 └─ *.py            10 个研究报告脚本
 ```
 
